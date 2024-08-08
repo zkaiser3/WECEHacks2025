@@ -7,7 +7,7 @@ html, body {
 body {
     font-family: 'Courier New', Courier, monospace;
     padding-top: 60px; /* Adjust based on navbar height */
-    background: linear-gradient(#C06C84, #6C5B7B); /* Gradient background for scroll effect */
+    background: linear-gradient(#C06C84, #6C5B7B); /* Gradient background */
     background-attachment: fixed; /* Fix the background position */
     background-size: cover; /* Cover the entire background area */
 }
@@ -53,32 +53,4 @@ body {
 
 .navbar a:hover {
     background-color: #f99972; /* Darker background color on hover */
-}
-
-/* Hero Section Styles */
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #C06C84; /* Solid purple background */
-    text-align: center;
-    position: relative;
-    color: white; /* Text color */
-}
-
-.hero-logo {
-    height: 100px; /* Adjust logo size as needed */
-    margin-bottom: 20px; /* Space below logo */
-}
-
-.hero h1 {
-    font-size: 2.5rem; /* Adjust title size as needed */
-}
-
-/* Main Content Styles */
-.container {
-    padding: 20px;
-    background: linear-gradient(#C06C84, #6C5B7B); /* Gradient background transitioning from purple to pink */
 }
