@@ -80,11 +80,39 @@ body {
 /* Main Content Styles */
 .container {
     padding: 20px;
+    align-items: center;
     background: linear-gradient(#C06C84, #6C5B7B); /* Gradient background transitioning from purple to pink */
 }
 
 #wecehacks_description_header {
     text-align: center;
     color: white;
+    font-size: 1.5rem;
+}
 
+#wecehacks_description {
+    color: white;
+    font-size: 1rem;
+}
+
+#wecehacks_description_2 {
+    color: white;
+    font-size: 1.25rem;
+}
+
+.google-form-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #c06c84; /* Change to your desired color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.google-form-link:hover {
+    text-align: center;
+    background-color: #9a4b61; /* Darker shade for hover effect */
 }
