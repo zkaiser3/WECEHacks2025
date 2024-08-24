@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F67280; /* Dark background color for the navbar */
+    background-color: #C06C84; /* Dark background color for the navbar */
     padding: 10px 20px; /* Padding around the navbar */
     position: fixed; /* Fixed position to stick at the top */
     top: 0;
@@ -81,4 +81,10 @@ body {
 .container {
     padding: 20px;
     background: linear-gradient(#C06C84, #6C5B7B); /* Gradient background transitioning from purple to pink */
+}
+
+#wecehacks_description_header {
+    text-align: center;
+    color: white;
+
 }

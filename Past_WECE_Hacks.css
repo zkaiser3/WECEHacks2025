@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F67280; /* Dark background color for the navbar */
+    background-color: #C06C84; /* Dark background color for the navbar */
     padding: 10px 20px; /* Padding around the navbar */
     position: fixed; /* Fixed position to stick at the top */
     top: 0;
@@ -53,4 +53,31 @@ body {
 
 .navbar a:hover {
     background-color: #f99972; /* Darker background color on hover */
+}
+
+.wecehacks2024 {
+    background-color: #333; /* Background color for the div */
+    color: white; /* Text color */
+    padding: 20px;
+    margin: 40px auto; /* Margin outside the div */
+    max-width: 800px; /* Maximum width of the div */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center; /* Center text within the div */
+}
+
+.wecehacks2024 img {
+    max-width: 80%; /* Scale images to be responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners for images */
+    margin: 10px 0; /* Add space around images */
+}
+
+.section_header {
+    font-size: 2rem; /* Font size for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+p {
+    color: white; /* Text color for paragraphs */
+    margin-bottom: 20px; /* Space below paragraphs */
 }

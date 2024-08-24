@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F67280; /* Dark background color for the navbar */
+    background-color: #C06C84; /* Dark background color for the navbar */
     padding: 10px 20px; /* Padding around the navbar */
     position: fixed; /* Fixed position to stick at the top */
     top: 0;
